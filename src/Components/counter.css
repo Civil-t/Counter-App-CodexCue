@@ -1,0 +1,57 @@
+body {
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh; /*removed division line aat the bottom*/
+}
+.container {
+  width: 450px;
+  height: 95vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.6px);
+  -webkit-backdrop-filter: blur(10.6px);
+}
+
+.display {
+  font-size: 3rem;
+  font-weight: 700;
+  font-size: 150px;
+  color: #fff;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 45%;
+  height: 12vh;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10.6px);
+  -webkit-backdrop-filter: blur(10.6px);
+}
+
+.incr-decre-btns {
+  display: flex;
+
+  width: 100%;
+}
